@@ -1,0 +1,12 @@
+.trip-form {
+  position: fixed;
+  top: 50%;
+  transform: translate(0, -50%);
+  right: -100%;
+  border-radius: 15px;
+}
+
+.trip-form.active {
+  right: -10px;
+  transition: all .4s ease-in-out;
+}
